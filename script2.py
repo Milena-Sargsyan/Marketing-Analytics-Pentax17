@@ -40,3 +40,6 @@ forecast_table = pd.DataFrame({
 })
 print("\nPredicted Adopters by Period (Pentax 17):")
 print(forecast_table)
+
+# Saving the forecast table as a csv file
+forecast_table.to_csv('pentax_predictions.csv', index=False)
