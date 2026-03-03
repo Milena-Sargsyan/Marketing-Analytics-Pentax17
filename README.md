@@ -3,7 +3,8 @@
 
 **Project Overview:** This project analyzes the potential market diffusion of the Pentax 17, a half-frame film camera released in 2024. By using historical data from the "Golden Age" of 35mm film cameras (1977–2007), I estimated the coefficients of innovation (_p_) and imitation (_q_) to forecast how this modern revival product will be adopted globally over the next 20 years.
 
-**Directory Structure**
+
+### **Directory Structure**
 
 📁 img/
 This directory contains all the visualizations used in the analysis.
@@ -27,14 +28,14 @@ The root directory holds the execution files for the project.
 - script2.py: Python script used to run the Pentax 17 forecast and export the final prediction table.
 - helper_functions.py: A collection of helper functions, including the core Bass Model mathematical formula used by both scripts.
 
-**Methodology Summary** 
+
+### **Methodology Summary** 
 1. Look-alike JustificationI selected Historical 35mm Film Camera Sales as the "look-alike" for the Pentax 17 because both represent the same mechanical and chemical technology. By analyzing the 1977–2007 era, we can model the social contagion (imitation) inherent to analog photography.
 2. Parameter EstimationBased on the historical fit, the following parameters were derived: _p_ (Innovation): 0.010203, _q_ (Imitation): 0.162198, _M_ (Market Potential): 707,311 (units in 1000s).
 3. Fermi Logic for Pentax 17To adapt the model for a 2025 niche product, I estimated a modern Market Potential ($M$) of 5,000,000 units (5,000 in the model) based on a global community of 20 million enthusiasts and a 25% target niche market share.
 
 
-
-**Setup and Usage**
+### **Setup and Usage**
 1. Requirements: Python 3.x, pandas, numpy, matplotlib, and scipy.
 2. Run Analysis: Execute bass_film_cameras.ipynb to see the step-by-step analysis and generated plots.Scripts:
 3. Alternatively, run script1.py for parameter estimation and script2.py for the 20-year forecast.
