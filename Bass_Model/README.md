@@ -1,5 +1,6 @@
 # Homework 1: Bass Diffusion Model - Pentax 17
 Course: DS 223 | Marketing Analytics
+
 Student: Milena Sargsyan
 
 ## Project Overview
